@@ -1,0 +1,18 @@
+{
+  "name": "mongo2elasticsearch",
+  "version": "0.5.0",
+  "description": "Copy config.example.js to config.js, disable warmers in Elasticsearch when importing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mongo2elasticsearch": "./index.js"
+  },
+  "author": "beyondcompute",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^8.0.1",
+    "mongodb": "^2.0.42"
+  }
+}

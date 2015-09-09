@@ -1,0 +1,7 @@
+Utility for importing data from MongoDB to Elasticsearch
+
+Copy `config.example.js` to `config.js` and edit your preferences
+
+Run `node index.js | tee my.log`
+
+Better disable 'warmers' for your index in Elasticsearch to speed-up import
